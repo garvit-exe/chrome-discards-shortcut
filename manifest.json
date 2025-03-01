@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Discards Shortcut",
+    "version": "1.0",
+    "description": "Open chrome://discards/ in the same tab if on Chrome's new tab page, or in a new tab otherwise.",
+    "permissions": ["tabs"],
+    "action": {
+      "default_icon": {
+        "48": "icon48.png"
+      }
+    },
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
+  
